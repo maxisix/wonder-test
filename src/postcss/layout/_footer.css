@@ -14,7 +14,25 @@
 }
 
 .footer__widget {
-    lost-column: 1/4;
+    margin-top: 40px;
+
+    &:first-child {
+        margin-top: 0;
+    }
+
+    @media all and (min-width: 480px) {
+        lost-column: 1/2;
+
+        &:nth-child(2) {
+            margin-top: 0;
+        }
+    }
+
+    @media all and (min-width: 768px) {
+        margin-top: 0;
+
+        lost-column: 1/4;
+    }
 }
 
 .footer__widget-title {
@@ -34,19 +52,33 @@
 
 .footer__sub-copyright,
 .footer__sub-nav {
-    lost-column: 1/2;
+    text-align: center;
+
+    @media all and (min-width: 768px) {
+        text-align: left;
+
+        lost-column: 1/2;
+    }
 }
 
 .footer__sub-copyright {
     margin: 0;
+
 }
 
 .footer__sub-nav {
-    text-align: right;
+    margin-top: 40px;
+
+    @media all and (min-width: 768px) {
+        margin-top: 0;
+
+        text-align: right;
+    }
 }
 
 .footer__sub-nav-link {
-    margin-left: 5px;
+    margin: 10px 0;
+    display: block;
 
     transition: color 0.3s ease-in-out;
 
@@ -56,6 +88,11 @@
 
     &:hover {
         color: map(colors, secondary, base);
+    }
+
+    @media all and (min-width: 768px) {
+        display: inline;
+        margin: 0 5px;
     }
 }
 
@@ -71,7 +108,61 @@
     padding: 0;
 
     list-style: none;
+
+    lost-utility: clearfix;
 }
+
+.social-list__item {
+    float: left;
+
+    margin-left: 4px;
+
+    &:first-child {
+        margin-left: 0;
+    }
+}
+
+.social-icon {
+    display: block;
+
+    width: 46px;
+    height: 46px;
+
+    background-image: url('../images/social-icons.png');
+
+    &.facebook {
+        background-position: 0px 0px;
+
+        &:hover {
+            background-position: 0px -47px;
+        }
+    }
+
+    &.twitter {
+        background-position: -52px 0px;
+
+        &:hover {
+            background-position: -52px -47px;
+        }
+    }
+
+    &.dribble {
+        background-position: -104px 0px;
+
+        &:hover {
+            background-position: -104px -47px;
+        }
+    }
+
+    &.rss {
+        background-position: -156px 0px;
+
+        &:hover {
+            background-position: -156px -47px;
+        }
+    }
+}
+
 
 
 

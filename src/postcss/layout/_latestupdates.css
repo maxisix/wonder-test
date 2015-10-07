@@ -8,7 +8,18 @@
 
 .latest-news,
 .latest-video {
-    lost-column: 1/2;
+
+    @media all and (min-width: 768px) {
+        lost-column: 1/2;
+    }
+}
+
+.latest-video {
+    margin-top: 80px;
+
+    @media all and (min-width: 768px) {
+        margin-top: 0;
+    }
 }
 
 .article__info {
@@ -16,9 +27,18 @@
 }
 
 .article__thumbnail {
-    lost-column: 2/3;
+
+    @media all and (min-width: 480px) {
+        lost-column: 2/3;
+    }
 }
 
 .article__details {
-    lost-column: 1/3;
+    text-align: center;
+
+    @media all and (min-width: 480px) {
+        text-align: left;
+
+        lost-column: 1/3;
+    }
 }

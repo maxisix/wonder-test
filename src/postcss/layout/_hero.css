@@ -9,11 +9,22 @@
 }
 
 .hero__slider {
-    lost-column: 8/12;
+
+    @media all and (min-width: 768px) {
+        lost-column: 8/12;
+    }
 }
 
 .hero__text {
-    lost-column: 4/12;
+    text-align: center;
+
+    @media all and (min-width: 480px) {
+        text-align: left;
+    }
+
+    @media all and (min-width: 768px) {
+        lost-column: 4/12;
+    }
 }
 
 .hero__title {

@@ -15,8 +15,12 @@
 @import url(https://fonts.googleapis.com/css?family=Arvo);
 
 .container {
-    max-width: 1170px;
-    margin: 0 auto;
+    margin: 0 10px;
+
+    @media all and (min-width: 1190px) {
+        max-width: 1170px;
+        margin: 0 auto;
+    }
 }
 
 
