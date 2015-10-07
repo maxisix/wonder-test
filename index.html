@@ -39,144 +39,272 @@
 </head>
 <body>
 
-    <header class="header">
 
-        <img src="assets/images/page-logo.png" alt="Wonder" class="header__logo">
+    <div class="page">
 
-        <nav class="header__nav">
-            <a href="#" class="header__nav-link">Home</a>
-            <a href="#" class="header__nav-link">Features</a>
-            <a href="#" class="header__nav-link">Pages</a>
-            <a href="#" class="header__nav-link">Gallery</a>
-            <a href="#" class="header__nav-link">Blog</a>
-            <a href="#" class="header__nav-link">Contact</a>
-        </nav>
+        <div class="container">
 
-    </header>
+            <header class="header">
+
+                <a href="#" class="header__logo">
+                    <img src="assets/images/page-logo.png" alt="Wonder">
+                </a>
+
+                <nav class="header__nav">
+                    <a href="#" class="header__nav-link">Home</a>
+                    <a href="#" class="header__nav-link">Features</a>
+                    <a href="#" class="header__nav-link">Pages</a>
+                    <a href="#" class="header__nav-link">Gallery</a>
+                    <a href="#" class="header__nav-link">Blog</a>
+                    <a href="#" class="header__nav-link">Contact</a>
+                </nav>
+
+            </header>
 
 
 
-    <div class="hero">
+            <section class="hero">
 
-        <div class="hero__slider"></div>
+                <div class="hero__slider">
+                    <div class="owl-carousel">
+                        <div class="item">
+                            <img src="assets/images/slider/slider1.jpg" alt="slider1">
+                        </div>
+                        <div class="item">
+                            <img src="assets/images/slider/slider2.jpg" alt="slider2">
+                        </div>
+                        <div class="item">
+                            <img src="assets/images/slider/slider3.jpg" alt="slider3">
+                        </div>
+                    </div>
+                </div>
 
-        <div class="hero__text">
-            <h1>This is wonderful. Wonder is a beautiful multipurpose html/css theme.</h1>
+                <div class="hero__text">
+                    <h1 class="hero__title">This is wonderful. Wonder is a beautiful multipurpose html/css theme.</h1>
 
-            <p>For us, the product package represents the core media within shopper marketing.</p>
+                    <p class="hero__desc">For us, the product package represents the core media within shopper marketing.</p>
+                </div>
+
+            </section>
+
+
+
+            <section class="section our-work">
+
+                <h2 class="section__title"><span class="section__title--highlight">Take a look</span> at our work</h2>
+
+                <div class="projects">
+
+                    <a href="#" class="project">
+                        <img src="assets/images/work-1.jpg" alt="Bad Dinausor" class="project__thumbnail">
+
+                        <div class="project__desc">
+                            <h3 class="project__title">Bad Dinausor</h3>
+                            <p class="project__text">Not so bad really.</p>
+                        </div>
+                    </a>
+
+                    <a href="#" class="project">
+                        <img src="assets/images/work-2.jpg" alt="Bad Dinausor" class="project__thumbnail">
+
+                        <div class="project__desc">
+                            <h3 class="project__title">Bad Dinausor</h3>
+                            <p class="project__text">Not so bad really.</p>
+                        </div>
+                    </a>
+
+                    <a href="#" class="project">
+                        <img src="assets/images/work-3.jpg" alt="Bad Dinausor" class="project__thumbnail">
+
+                        <div class="project__desc">
+                            <h3 class="project__title">Bad Dinausor</h3>
+                            <p class="project__text">Not so bad really.</p>
+                        </div>
+                    </a>
+
+                    <a href="#" class="project">
+                        <img src="assets/images/work-4.jpg" alt="Bad Dinausor" class="project__thumbnail">
+
+                        <div class="project__desc">
+                            <h3 class="project__title">Bad Dinausor</h3>
+                            <p class="project__text">Not so bad really.</p>
+                        </div>
+                    </a>
+
+                </div>
+
+            </section>
+
+
+
+            <section class="section latest-updates">
+
+                <section class="latest-news">
+
+                    <h2 class="section__title"><span class="section__title--highlight">From the blog</span> all the latest news</h2>
+
+                    <article class="article">
+
+                        <div class="article__info">
+
+                            <div class="article__thumbnail">
+                                <img src="src/images/blog-1.jpg" alt="Blog 1">
+                            </div>
+
+                            <div class="article__details">
+                                <h3 class="article__title">You are super awesome</h3>
+                                <p class="article__date">Posted on: Aug 14, 2013</p>
+                                <p class="article__author">Posted by: Admin</p>
+                            </div>
+
+                        </div>
+
+                        <p class="article__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore cupiditate perferendis error nihil ullam, consectetur aut ratione aperiam, nobis magnam voluptate sunt. Pariatur voluptatem vel quos ipsa facilis, corporis dolore.</p>
+                    </article>
+
+                </section>
+
+                <section class="latest-video">
+
+                    <h2 class="section__title"><span class="section__title--highlight">Recent video</span> created by us</h2>
+
+                    <div class='embed-container'>
+                        <iframe src='https://player.vimeo.com/video/125491561' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                    </div>
+                </section>
+
+            </section>
+
         </div>
 
-    </div>
-
-
-
-    <section class="section our-work">
-
-        <h2 class="section__title">Take a look at our work</h2>
-
-        <div class="our-work__project">
-            <img src="assets/images/work-1.jpg" alt="Bad Dinausor" class="project__thumbnail">
-
-            <h3 class="project__title">Bad Dinausor</h3>
-            <p class="project__description">Not so bad really.</p>
-        </div>
-
-        <div class="our-work__project">
-            <img src="assets/images/work-2.jpg" alt="Bad Dinausor" class="project__thumbnail">
-
-            <h3 class="project__title">Bad Dinausor</h3>
-            <p class="project__description">Not so bad really.</p>
-        </div>
-
-        <div class="our-work__project">
-            <img src="assets/images/work-3.jpg" alt="Bad Dinausor" class="project__thumbnail">
-
-            <h3 class="project__title">Bad Dinausor</h3>
-            <p class="project__description">Not so bad really.</p>
-        </div>
-
-        <div class="our-work__project">
-            <img src="assets/images/work-4.jpg" alt="Bad Dinausor" class="project__thumbnail">
-
-            <h3 class="project__title">Bad Dinausor</h3>
-            <p class="project__description">Not so bad really.</p>
-        </div>
-
-    </section>
-
-
-
-    <section class="section latest-news">
-
-        <h2 class="section__title">From the blog all the latest news</h2>
-
-        <article class="article">
-            <img src="" alt="" class="article__thumbnail">
-
-            <h3 class="article__title">You are super awesome</h3>
-            <p class="article__date">Posted on: Aug 14, 2013</p>
-            <p class="article__author">Posted by: Admin</p>
-
-            <p class="article__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore cupiditate perferendis error nihil ullam, consectetur aut ratione aperiam, nobis magnam voluptate sunt. Pariatur voluptatem vel quos ipsa facilis, corporis dolore.</p>
-        </article>
-
-    </section>
-
-
-
-    <section class="section recent-video">
-
-        <h2 class="section__title">Recent video created by us</h2>
-
-        <iframe src="https://player.vimeo.com/video/125491561" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-    </section>
+    </div> <!-- FIN PAGE -->
 
 
 
     <footer class="footer">
 
-        <div class="footer__widgets">
+        <div class="container">
 
-            <div class="footer__widget contact-us">
-                <h3 class="footer__widget-title">Contact Us</h3>
+            <div class="footer__widgets">
+
+                <div class="footer__widget contact-us">
+                    <h3 class="footer__widget-title">Contact Us</h3>
+
+                    <img src="assets/images/footer-logo.png" alt="" class="contact-us__logo">
+
+                    <address>
+                        <strong>Wonder Bunker</strong> <br>
+                        6064 Amazing St, <br>
+                        Madrid, Spain.
+                    </address>
+
+                    <ul class="socials-list">
+                        <li class="social-list__item">
+                            <a href="#">facebook</a>
+                        </li>
+                        <li class="social-list__item">
+                            <a href="#">twitter</a>
+                        </li>
+                        <li class="social-list__item">
+                            <a href="#">dribble</a>
+                        </li>
+                        <li class="social-list__item">
+                            <a href="#">rss</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="footer__widget latest-tweets">
+                    <h3 class="footer__widget-title">Latest tweets</h3>
+
+                    <ul class="tweets">
+                        <li class="tweet"><a href="" class="tweet__author">@Basicoh_</a> Hey! Buy this beautiful theme right now!.</li>
+                        <li class="tweet"><a href="" class="tweet__author">@Basicoh_</a> Wonder Theme is out Now!. You can buy it in Wrapbootstrap.com. Really easy to configure with a wonderful design.</li>
+                        <li class="tweet"><a href="" class="tweet__author">@Basicoh_</a> If you are an agency, freelancer or a studio, this theme is made for you. Take a look and enjoy it.</li>
+                    </ul>
+
+                </div>
+
+                <div class="footer__widget latest-posts">
+                    <h3 class="footer__widget-title">Latest posts</h3>
+
+                    <ul class="posts">
+                        <li class="post"><a href="">Example post number 1</a></li>
+                        <li class="post"><a href="">Another example post title</a></li>
+                        <li class="post"><a href="">This is the third post title here</a></li>
+                        <li class="post"><a href="">Yet another post title for this list</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="footer__widget flickr-photos">
+                    <h3 class="footer__widget-title">Flickr photos</h3>
+
+                    <ul class="flickr-photos">
+                        <li class="flickr-photo">
+                            <img src="assets/images/flickr/1.jpg" alt="1" />
+                        </li>
+                        <li class="flickr-photo">
+                            <img src="assets/images/flickr/2.jpg" alt="2" />
+                        </li>
+                        <li class="flickr-photo">
+                            <img src="assets/images/flickr/3.jpg" alt="3" />
+                        </li>
+                        <li class="flickr-photo">
+                            <img src="assets/images/flickr/4.jpg" alt="4" />
+                        </li>
+                        <li class="flickr-photo">
+                            <img src="assets/images/flickr/5.jpg" alt="5" />
+                        </li>
+                        <li class="flickr-photo">
+                            <img src="assets/images/flickr/6.jpg" alt="6" />
+                        </li>
+                        <li class="flickr-photo">
+                            <img src="assets/images/flickr/7.jpg" alt="7" />
+                        </li>
+                        <li class="flickr-photo">
+                            <img src="assets/images/flickr/8.jpg" alt="8" />
+                        </li>
+                        <li class="flickr-photo">
+                            <img src="assets/images/flickr/9.jpg" alt="9" />
+                        </li>
+                        <li class="flickr-photo">
+                            <img src="assets/images/flickr/10.jpg" alt="10" />
+                        </li>
+                        <li class="flickr-photo">
+                            <img src="assets/images/flickr/11.jpg" alt="11" />
+                        </li>
+                        <li class="flickr-photo">
+                            <img src="assets/images/flickr/12.jpg" alt="12" />
+                        </li>
+                    </ul>
+                </div>
 
             </div>
 
-            <div class="footer__widget latest-tweets">
-                <h3 class="footer__widget-title">Latest tweets</h3>
+            <div class="footer__sub">
+
+                <p class="footer__sub-copyright">Copyright 2002 Wonder Theme. All rights reserved.</p>
+
+                <nav class="footer__sub-nav">
+                    <a href="#" class="footer__sub-nav-link">Home</a>
+                    <a href="#" class="footer__sub-nav-link">Features</a>
+                    <a href="#" class="footer__sub-nav-link">Gallery</a>
+                    <a href="#" class="footer__sub-nav-link">Blog</a>
+                    <a href="#" class="footer__sub-nav-link">Contact</a>
+                </nav>
 
             </div>
-
-            <div class="footer__widget latest-posts">
-                <h3 class="footer__widget-title">Latest posts</h3>
-
-            </div>
-
-            <div class="footer__widget flickr-photos">
-                <h3 class="footer__widget-title">Flickr photos</h3>
-
-            </div>
-
-        </div>
-
-        <div class="footer__sub">
-
-            <p class="footer__sub-copyright">Copyright 2002 Wonder Theme. All rights reserved.</p>
-
-            <nav class="footer__sub-nav">
-                <a href="#" class="footer__sub-nav-link">Home</a>
-                <a href="#" class="footer__sub-nav-link">Features</a>
-                <a href="#" class="footer__sub-nav-link">Gallery</a>
-                <a href="#" class="footer__sub-nav-link">Blog</a>
-                <a href="#" class="footer__sub-nav-link">Contact</a>
-            </nav>
 
         </div>
 
     </footer>
 
-    <script async src="assets/js/min/scripts.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+    <script src="http://www.owlcarousel.owlgraphic.com/assets/owlcarousel/owl.carousel.js"></script>
+    <script src="assets/js/min/scripts.min.js"></script>
 
 
     <!-- GOOGLE ANALYTICS -->

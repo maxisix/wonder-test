@@ -1,0 +1,25 @@
+/*------------------------------------*\
+    #LAYOUT HERO
+\*------------------------------------*/
+
+.hero {
+    margin-top: 40px;
+
+    lost-utility: clearfix;
+}
+
+.hero__slider {
+    lost-column: 8/12;
+}
+
+.hero__text {
+    lost-column: 4/12;
+}
+
+.hero__title {
+    text-transform: uppercase;
+}
+
+.hero__desc {
+    color: #858988;
+}

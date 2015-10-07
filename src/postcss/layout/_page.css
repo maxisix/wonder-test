@@ -1,0 +1,10 @@
+/*------------------------------------*\
+    #LAYOUT PAGE
+\*------------------------------------*/
+
+.page {
+    padding-bottom: 80px;
+    border-top: 3px solid map(colors, secondary, base);
+
+    background-color: map(colors, primary, light);
+}

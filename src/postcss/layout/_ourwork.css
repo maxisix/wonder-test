@@ -1,0 +1,35 @@
+/*------------------------------------*\
+    #LAYOUT OUR WORK
+\*------------------------------------*/
+
+.our-work {
+
+}
+
+.projects {
+    lost-utility: clearfix;
+}
+
+.project {
+    display: block;
+
+    lost-column: 1/4;
+}
+
+.project__desc {
+    padding: 12px;
+
+    background-color: #ffffff;
+
+    text-align: center;
+}
+
+.project__title {
+    margin: 0;
+
+    color: map(colors, secondary, base);
+}
+
+.project__text {
+    margin: 4px 0 0 0;
+}

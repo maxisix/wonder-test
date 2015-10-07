@@ -1,0 +1,20 @@
+/*------------------------------------*\
+    #LAYOUT SECTION
+\*------------------------------------*/
+
+.section {
+    margin-top: 80px;
+}
+
+.section__title {
+    padding: 10px 5px;
+
+    background-color: map(colors, primary, dark);
+    color: #fff;
+
+    text-transform: uppercase;
+}
+
+.section__title--highlight {
+    color: map(colors, secondary, base);
+}

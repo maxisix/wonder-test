@@ -1,0 +1,60 @@
+/*------------------------------------*\
+    #LAYOUT FOOTER
+\*------------------------------------*/
+
+.footer {
+    padding: 40px 0;
+
+    color: #fff;
+    background-color: map(colors, primary, dark);
+}
+
+.footer__widgets {
+    lost-utility: clearfix;
+}
+
+.footer__widget {
+    lost-column: 1/4;
+}
+
+.footer__widget-title {
+    margin: 0 0 40px 0;
+
+    text-transform: uppercase;
+}
+
+.footer__sub {
+    margin-top: 40px;
+    padding: 10px;
+
+    background-color: #1f1f1f;
+
+    lost-utility: clearfix;
+}
+
+.footer__sub-copyright,
+.footer__sub-nav {
+    lost-column: 1/2;
+}
+
+.footer__sub-copyright {
+    margin: 0;
+}
+
+.footer__sub-nav {
+    text-align: right;
+}
+
+.footer__sub-nav-link {
+    margin-left: 5px;
+
+    transition: color 0.3s ease-in-out;
+
+    &:first-child {
+        margin-left: 0;
+    }
+
+    &:hover {
+        color: map(colors, secondary, base);
+    }
+}

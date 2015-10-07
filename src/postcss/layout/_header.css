@@ -1,0 +1,35 @@
+/*------------------------------------*\
+    #LAYOUT HEADER
+\*------------------------------------*/
+
+.header {
+    margin-top: 40px;
+
+    lost-utility: clearfix;
+}
+
+.header__logo {
+    lost-column: 1/3;
+}
+
+.header__nav {
+    text-align: right;
+
+    lost-column: 2/3;
+}
+
+.header__nav-link {
+    display: inline-block;
+
+    margin-right: -4px;
+    padding: 10px 15px;
+
+    background-color: map(colors, primary, dark);
+    color: white;
+
+    transition: background-color 0.3s ease-in-out;
+
+    &:hover {
+        background-color: map(colors, secondary, base);
+    }
+}

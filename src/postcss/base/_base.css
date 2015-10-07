@@ -1,0 +1,32 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    border-top: 3px solid map(colors, primary, dark);
+}
+
+html, body {
+    margin: 0 auto;
+    padding: 0;
+
+    background: #fff;
+
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Arvo', serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}

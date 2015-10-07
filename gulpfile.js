@@ -20,6 +20,7 @@ var gulp = require('gulp'),
     lost = require('lost'),
     autoprefixer = require('autoprefixer'),
     cmq = require('gulp-combine-media-queries'),
+    map = require('postcss-map'),
 
 
 
@@ -108,6 +109,7 @@ CSS TASKS
 gulp.task('styles', function() {
         var processors = [
             precss({}),
+            map(opts),
             lost(),
             autoprefixer(AUTOPREFIXER_BROWSERS)
         ];

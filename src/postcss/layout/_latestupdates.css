@@ -1,0 +1,24 @@
+/*------------------------------------*\
+    #LAYOUT LATEST UPDATE
+\*------------------------------------*/
+
+.latest-updates {
+    lost-utility: clearfix;
+}
+
+.latest-news,
+.latest-video {
+    lost-column: 1/2;
+}
+
+.article__info {
+    lost-utility: clearfix;
+}
+
+.article__thumbnail {
+    lost-column: 2/3;
+}
+
+.article__details {
+    lost-column: 1/3;
+}
