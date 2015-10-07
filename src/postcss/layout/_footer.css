@@ -58,3 +58,87 @@
         color: map(colors, secondary, base);
     }
 }
+
+
+
+/* Widget contact */
+
+.contact-us__address {
+    margin-top: 20px;
+}
+
+.socials-list {
+    padding: 0;
+
+    list-style: none;
+}
+
+
+
+/* Widget Tweets */
+
+.tweets {
+    padding: 0;
+
+    list-style: none;
+}
+
+.tweet {
+    margin-top: 20px;
+
+    &:first-child {
+        margin-top: 0;
+    }
+}
+
+.tweet__author {
+    font-weight: bold;
+
+    transition: color 0.3s ease-in-out;
+
+    &:hover {
+        color: map(colors, secondary, base);
+    }
+}
+
+
+/* Widget Latest Posts */
+
+.posts {
+    padding: 0;
+
+    list-style: none;
+}
+
+.post {
+    border-top: 1px dashed #858988;
+    padding: 15px 0;
+
+    transition: color 0.3s ease-in-out;
+
+    &:first-child {
+        padding-top: 0;
+        border-top: none;
+    }
+
+    &:hover {
+        color: map(colors, secondary, base);
+    }
+}
+
+
+/* Widget Flickr */
+
+.flickr-photos {
+    padding: 0;
+
+    list-style: none;
+
+    lost-utility: clearfix;
+}
+
+.flickr-photo {
+    padding: 4px;
+
+    lost-column: 1/4 0 0;
+}
