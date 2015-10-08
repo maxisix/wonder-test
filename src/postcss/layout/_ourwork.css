@@ -33,6 +33,10 @@
     }
 }
 
+.project__thumbnail {
+    width: 100%; /* Les images ne sont pas asser grande pour le max-width */
+}
+
 .project__desc {
     padding: 12px;
 
@@ -45,6 +49,8 @@
     margin: 0;
 
     color: map(colors, secondary, base);
+
+    font-size: 16px;
 }
 
 .project__text {

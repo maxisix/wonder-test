@@ -21,6 +21,7 @@ var gulp = require('gulp'),
     autoprefixer = require('autoprefixer'),
     cmq = require('gulp-combine-media-queries'),
     map = require('postcss-map'),
+    cssmin = require('gulp-cssmin'),
 
 
 
@@ -125,6 +126,7 @@ gulp.task('styles', function() {
             log: true
         }))
         .pipe(sourcemaps.write('./'))
+        .pipe(cssmin())
         .pipe(gulp.dest(target.css_dest))
         .pipe(reload({stream:true}))
         .pipe(notify('POSTCSS task completed'));

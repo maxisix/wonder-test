@@ -22,8 +22,9 @@
 
     @media all and (min-width: 768px) {
         margin-top: 0;
+        max-width: 570px;
 
-        text-align: right;
+        text-align: center;
 
         lost-column: 2/3;
     }
@@ -46,7 +47,7 @@
 
     @media all and (min-width: 480px) {
         border: none;
-        
+
         lost-column: 1/6 0 0;
     }
 

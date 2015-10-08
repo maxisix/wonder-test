@@ -1,11 +1,9 @@
-$(document).ready(function(){
+$(document).ready(function() {
+
     $('.owl-carousel').owlCarousel({
-        loop: true,
-        dotsEach: true,
-        responsive:{
-            0:{
-                items:1
-            }
-        }
-    })
+        navigation : false,
+        slideSpeed : 300,
+        singleItem: true
+    });
+
 });

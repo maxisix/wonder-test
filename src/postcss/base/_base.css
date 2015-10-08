@@ -8,17 +8,15 @@ html {
 
 body {
     border-top: 3px solid map(colors, primary, dark);
+
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Arvo', Georgia, serif;
 }
 
 html, body {
     margin: 0 auto;
     padding: 0;
-
-    background: #fff;
-
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    font-family: 'Arvo', serif;
 }
 
 a {

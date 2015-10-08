@@ -5,6 +5,7 @@
 .footer {
     padding: 40px 0;
 
+    font-size: 11px;
     color: #fff;
     background-color: map(colors, primary, dark);
 }
@@ -38,6 +39,7 @@
 .footer__widget-title {
     margin: 0 0 40px 0;
 
+    font-size: 14px;
     text-transform: uppercase;
 }
 
