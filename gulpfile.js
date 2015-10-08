@@ -97,7 +97,6 @@ var AUTOPREFIXER_BROWSERS = [
 // variables settings (colors, fonts, etc)
 var vars = require('./src/postcss/configs/sitesettings'),
     opts = {
-        basePath: './src/postcss/configs/',
         maps: [ 'colors.yml' ]
     };
 

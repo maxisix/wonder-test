@@ -15,12 +15,15 @@
     }
 }
 
+
 .header__nav {
     margin-top: 40px;
 
     text-align: center;
 
     @media all and (min-width: 768px) {
+        float: right !important; /* grid hack to reset lost-column align */
+
         margin-top: 0;
         max-width: 570px;
 

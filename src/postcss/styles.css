@@ -14,23 +14,6 @@
  */
 
 
-/* SETTINGS */
-@import url(https://fonts.googleapis.com/css?family=Arvo);
-
-.container {
-    margin: 0 10px;
-
-    @media all and (min-width: 1190px) {
-        max-width: 1170px;
-        margin: 0 auto;
-    }
-}
-
-
-
-
-.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; }
-.embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 
 /* BASE */
 @import 'base/normalize';
@@ -39,15 +22,15 @@
 
 /*TOOLS*/
 @import 'tools/owlcarousel';
-
+@import 'tools/tools';
 
 
 /* MODULE */
-/*@import 'module'/slider';*/
-/*@import 'module/social';*/
+
 
 
 /* LAYOUT */
+@import 'layout/container';
 @import 'layout/page';
 @import 'layout/header';
 @import 'layout/hero';
@@ -57,13 +40,10 @@
 @import 'layout/footer';
 
 
-
 /* STATE */
 
 
-
 /* THEME */
-
 
 
 /* SHAME FILE */
